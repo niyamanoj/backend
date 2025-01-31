@@ -7,7 +7,7 @@ CORS(app)
 
 # MySQL Database Connection
 db = pymysql.connect(
-    host="localhost",  # Change for production
+    host="localhost:3306",  # Change for production
     user="root",
     password="root",
     database="care_to_cure"
